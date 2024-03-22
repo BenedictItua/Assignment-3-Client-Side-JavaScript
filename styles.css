@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    font-family: Arial, sans-serif;
+ 
+}
+
+.intro {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    background-color: #FF5733;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF8C42;
+}
+
+.order-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 500px;
+    margin: auto;
+    color: #fff;
+}
+
+#orderConfirmation {
+    display: block;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    resize: vertical;
+}
