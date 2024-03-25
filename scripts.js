@@ -35,3 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
         orderConfirmation.style.display = 'block';
     });
 });
+
+document.getElementById("pizzaImg").addEventListener("click", function() {
+    window.location.href = "index.html"; // Redirect to the homepage
+});
